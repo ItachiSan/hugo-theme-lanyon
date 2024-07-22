@@ -1,0 +1,3 @@
+[submodule "exampleSite/themes/lanyon"]
+	path = exampleSite/themes/lanyon
+	url = ./
