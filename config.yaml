@@ -1,0 +1,58 @@
+# Default & reference configuation for the theme.
+# Nowadays it should be 'hugo.yaml' but let's keep the old naming since it makes it clear it is a configuration thing.
+
+# Parameters, the ones you most likely want to configure
+params:
+  # Tagline shown in the headbar
+  tagline: A website build using the Lanyon theme.
+  # Description shown in the sidebar.
+  # You can use HTML tags, since the description will be piped to safeHTML.
+  # Do it with caution.
+  description:
+    This website is build using the
+    <a href="https://github.com/ItachiSan/hugo-theme-lanyon">Go port of the  Lanyon theme</a>,
+    originally developed for Jekyll from
+    <a href="https://markdotto.com/">Mark Otto</a>.
+
+  # Your personal informations. Self explanatory
+  author:
+    name:  John Doe
+    url:   https://example.com
+    email: john.doe@example.com
+
+  # Extra GitHub details, allow to provide a link to the repo and your blog version
+  github:
+    repo:    https://github.com/ItachiSan/hugo-theme-lanyon
+    version: 1.1.0
+
+  # Theme customization
+  theme:
+    # You can customize the them color via the correct code, listed below:
+    # - Red:     08
+    # - Orange:  09
+    # - Yellow:  0a
+    # - Green:   0b
+    # - Cyan:    0c
+    # - Blue:    0d
+    # - Magenta: 0e
+    # - Brown:   0f
+    # An empty input means black.
+    # Any invalid input will be silently ignored.
+    color:   08
+    # Make the sidebar to overlay the content, rather than pushing it.
+    overlay: false
+    # Reverse the position of the sidebar (from left to right side)
+    reverse: false
+
+  # Inject AddToAny to most pages for easy share of your content.
+  addtoany: true
+
+# Ensure the main RSS feed has the same name as Jekyll
+outputFormats:
+  rss:
+    baseName: atom
+
+# Ensure we use our syntax CSS
+markup:
+  highlight:
+    noClasses: false

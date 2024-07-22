@@ -1,31 +1,25 @@
-name = 'Theme name'
+name = 'Lanyon'
 license = 'MIT'
-licenselink = 'https://github.com/owner/repo/LICENSE'
-description = 'Theme description'
+licenselink = 'https://github.com/ItachiSan/hugo-theme-lanyon/LICENSE.md'
+description = "A port of Jekyll's Lanyon theme, with a few extra goodies."
 
 # The home page of the theme, where the source can be found
-homepage = 'https://github.com/owner/repo'
+homepage = 'https://github.com/ItachiSan/hugo-theme-lanyon'
 
 # If you have a running demo of the theme
 demosite = 'https://owner.github.io/repo'
 
 # Taxonomy terms
-tags = ['blog', 'company']
-features = ['some', 'awesome', 'features']
-
-# If the theme has multiple authors
-authors = [
-  {name = 'Name of author', homepage = 'Website of author'},
-  {name = 'Name of author', homepage = 'Website of author'}
-]
+tags = ['blog', 'minimal', 'responsive', 'personal']
+features = ['disqus', 'analytics']
 
 # If the theme has a single author
 [author]
-  name = 'Your name'
-  homepage = 'Your website'
+name = 'Giovanni Santini'
+homepage = 'https://giovanni.is-a.dev'
 
 # If porting an existing theme
 [original]
-  author = 'Name of original author'
-  homepage = 'Website of original author'
-  repo = 'https://github.com/owner/repo'
+author = 'Mark Otto'
+homepage = 'https://markdotto.com/'
+repo = 'https://github.com/poole/lanyon'
